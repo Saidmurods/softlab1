@@ -1,0 +1,29 @@
+{
+  "name": "softlab1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saidmurods/softlab1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saidmurods/softlab1/issues"
+  },
+  "homepage": "https://github.com/Saidmurods/softlab1#readme",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "typescript": "^5.9.2"
+  }
+}
